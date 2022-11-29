@@ -117,15 +117,15 @@ footer img {
 
 /*contacto*/
 
-.contactos{
+.contactos {
     grid-area: contactos;
 }
 
-.mail{
+.mail {
     grid-area: mail;
 }
 
-.titulo{
+.titulo {
     grid-area: titulo;
 }
 
@@ -144,18 +144,18 @@ footer img {
         "titulo"
         "contactos"
         "mail";
-        grid-template-columns: 100%;
+    grid-template-columns: 100%;
     gap: 10px;
 }
 
-.contact{
+.contact {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
 
-.contactMail{
+.contactMail {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -163,7 +163,7 @@ footer img {
 
 .contactos {
     width: 50%;
-} 
+}
 
 .mail div p {
     color: bisque;
@@ -172,9 +172,10 @@ footer img {
     margin: 40px;
     margin-top: 80px;
     border-radius: 20px;
-    background-color: rgb(13, 45, 59);}
+    background-color: rgb(13, 45, 59);
+}
 
-.mail{
+.mail {
     width: 70%;
 }
 
@@ -218,7 +219,7 @@ footer img {
     flex-direction: column;
 }
 
-.venta img:hover{
+.venta img:hover {
     transform: scale(1.2);
 }
 
@@ -312,9 +313,9 @@ footer img {
 
     /*contacto mediaquery*/
 
-.contactos {
-    width: 35%;
-} 
+    .contactos {
+        width: 35%;
+    }
 
 }
 
@@ -419,9 +420,8 @@ footer img {
             "header    header"
             "titulo    titulo"
             "contactos mail";
-            grid-template-columns: 50%;
+        grid-template-columns: 50%;
         gap: 20px;
     }
 
 }
-
